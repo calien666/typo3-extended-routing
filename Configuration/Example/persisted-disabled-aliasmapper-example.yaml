@@ -1,0 +1,15 @@
+News:
+  type: Extbase
+  extension: News
+  plugin: news
+  routes:
+    -
+      routePath: '/{title}'
+      _controller: 'News::single'
+      _arguments:
+        title: news
+  aspects:
+    title:
+      type: PersistedDisabledliasMapper
+      tableName: tx_news_domain_model_news
+      routeFieldName: path_segment

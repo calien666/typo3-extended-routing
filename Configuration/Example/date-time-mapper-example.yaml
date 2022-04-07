@@ -1,0 +1,18 @@
+Archive:
+  type: Extbase
+  extension: News
+  plugin: Archive
+  routes:
+    - routePath: '/{day}'
+      _controller: 'Archive::list'
+      _arguments:
+        day: day
+  defaultController: 'Archive::list'
+  aspects:
+    day:
+      type: DateTimeMapper
+      format: Y-m-d
+      localeFormat:
+        -
+          locale: 'de_.*'
+          format: d-m-Y

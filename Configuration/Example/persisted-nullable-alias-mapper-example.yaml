@@ -1,0 +1,21 @@
+News:
+  type: Extbase
+  extension: News
+  plugin: News
+  routes:
+    -
+      routePath: '/{category}/{title}'
+      _controller: 'News::single'
+      _arguments:
+        category: category
+        title: news
+  aspects:
+    category:
+      type: PersistedNullableAliasMapper
+      default: 'no-category'
+      tableName: tx_news_domain_model_category
+      routeFieldName: path_segment
+    title:
+      type: PersistedAliasMapper
+      tableName: tx_news_domain_model_news
+      routeFieldName: path_segment

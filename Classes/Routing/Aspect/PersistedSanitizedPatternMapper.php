@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Markus Hofmann
- * 07.10.21 15:49
- * cht
- */
-
 declare(strict_types=1);
 
 namespace Calien\ExtendedRouting\Routing\Aspect;
