@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cad6a954-f071-43c3-ae85-d6ae976e0681" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Classes/Routing/Aspect/DateTimeMapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Routing/Aspect/PersistedDisabledAliasMapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Routing/Aspect/PersistedNullableAliasMapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configuration/Example/date-time-mapper-example.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configuration/Example/persisted-disabled-aliasmapper-example.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Configuration/Example/persisted-nullable-alias-mapper-example.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Routing/Aspect/PersistedSanitizedPatternMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Routing/Aspect/PersistedSanitizedPatternMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/Example/routing-example.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/Example/routing-persisted-sanitized-mapper-example.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext_emconf.php" beforeDir="false" afterPath="$PROJECT_DIR$/ext_emconf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ext_localconf.php" beforeDir="false" afterPath="$PROJECT_DIR$/ext_localconf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +18,12 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -142,8 +139,24 @@
       <option name="presentableId" value="Default" />
       <updated>1649316099383</updated>
       <workItem from="1649316100647" duration="2156000" />
-      <workItem from="1649318357792" duration="376000" />
+      <workItem from="1649318357792" duration="1417000" />
+      <workItem from="1649324100892" duration="585000" />
     </task>
+    <task id="LOCAL-00001" summary="Add new mappers and examples">
+      <created>1649318754618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649318754618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[TASK] set version to 1.0.0">
+      <created>1649318792222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649318792222</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +172,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new mappers and examples" />
+    <MESSAGE value="[TASK] set version to 1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] set version to 1.0.0" />
   </component>
 </project>
