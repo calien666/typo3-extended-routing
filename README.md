@@ -124,7 +124,7 @@ News:
 Possible via extensions.typo3.org, ZIP upload or composer.
 
 ### Extension Repository
-[a link]https://extensions.typo3.org/extension/extended_routing
+https://extensions.typo3.org/extension/extended_routing
 
 ### Composer
 ```shell
