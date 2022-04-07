@@ -1,0 +1,31 @@
+{
+  "name": "calien/extended-routing",
+  "type": "typo3-cms-extension",
+  "description": "Extended Routing Mappers for TYPO3",
+  "authors": [
+    {
+      "name": "Markus Hofmann",
+      "role": "Developer",
+      "email": "typo3@calien.de"
+    }
+  ],
+  "keywords": [
+    "TYPO3",
+    "Routing"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "typo3/cms-core": "^10.4 | ^11.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Calien\\ExtendedRouting\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "extended_routing"
+    }
+  }
+}

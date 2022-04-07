@@ -1,0 +1,22 @@
+# example for using static_info_tables as sanitized route fields
+aspects:
+  country:
+    type: PersistedSanitizedPatternMapper
+    tableName: static_countries
+    routeFieldPattern: '^(.*)-(?P<uid>\d+)$'
+    routeFieldResult: '{cn_short_de|sanitized}-{uid}'
+    localeMap:
+      - locale: 'de_*'
+        field: cn_short_de
+      - locale: 'en_*'
+        field: cn_short_en
+  territory:
+    type: PersistedSanitizedPatternMapper
+    tableName: static_territories
+    routeFieldPattern: '^(.*)-(?P<uid>\d+)$'
+    routeFieldResult: '{tr_name_de|sanitized}-{uid}'
+    localeMap:
+      - locale: 'de_*'
+        field: tr_name_de
+      - locale: 'en_*'
+        field: tr_name_en
