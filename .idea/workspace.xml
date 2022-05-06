@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad6a954-f071-43c3-ae85-d6ae976e0681" name="Changes" comment="">
+    <list default="true" id="cad6a954-f071-43c3-ae85-d6ae976e0681" name="Changes" comment="[TASK] Update documentation">
+      <change afterPath="$PROJECT_DIR$/Classes/Routing/Aspect/PersistedLocaleAliasMapper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -107,28 +112,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="AutoIdentifyTypo3Version" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="TYPO3AuthorEmailAddress" value="hofmann@reseen.de" />
-    <property name="TYPO3AuthorName" value="Markus Hofmann" />
-    <property name="TYPO3PathToExtensionDomainModels" value="Classes/Domain/Model/" />
-    <property name="TYPO3PathToLocalExtensions" value="typo3conf/ext/" />
-    <property name="TYPO3PathToSystemExtensions" value="public/typo3/sysext/" />
-    <property name="TYPO3ProjectConfigured" value="true" />
-    <property name="TYPO3Version" value="None" />
-    <property name="TYPO3XliffLanguages" value="af:Afrikaans;&#10;ar:Arabic;&#10;bs:Bosnian;&#10;bg:Bulgarian;&#10;ca:Catalan;&#10;ch:Chinese (Simpl.);&#10;cs:Czech;&#10;da:Danish;&#10;de:German;&#10;el:Greek;&#10;eo:Esperanto;&#10;es:Spanish;&#10;et:Estonian;&#10;eu:Basque;&#10;fa:Persian;&#10;fi:Finnish;&#10;fo:Faroese;&#10;fr:French;&#10;fr_CA:French (Canada);&#10;gl:Galician;&#10;he:Hebrew;&#10;hi:Hindi;&#10;hr:Croatian;&#10;hu:Hungarian;&#10;is:Icelandic;&#10;it:Italian;&#10;ja:Japanese;&#10;ka:Georgian;&#10;kl:Greenlandic;&#10;km:Khmer;&#10;ko:Korean;&#10;lt:Lithuanian;&#10;lv:Latvian;&#10;ms:Malay;&#10;nl:Dutch;&#10;no:Norwegian;&#10;pl:Polish;&#10;pt:Portuguese;&#10;pt_BR:Brazilian Portuguese;&#10;ro:Romanian;&#10;ru:Russian;&#10;sk:Slovak;&#10;sl:Slovenian;&#10;sq:Albanian;&#10;sr:Serbian;&#10;sv:Swedish;&#10;th:Thai;&#10;tr:Turkish;&#10;uk:Ukrainian;&#10;vi:Vietnamese;&#10;zh:Chinese (Trad.)" />
-    <property name="TYPO3XliffPathToExtensionLanguageFiles" value="Resources/Private/Language/" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "AutoIdentifyTypo3Version": "true",
+    "TYPO3AuthorEmailAddress": "hofmann@reseen.de",
+    "TYPO3AuthorName": "Markus Hofmann",
+    "TYPO3PathToExtensionDomainModels": "Classes/Domain/Model/",
+    "TYPO3PathToLocalExtensions": "typo3conf/ext/",
+    "TYPO3PathToSystemExtensions": "public/typo3/sysext/",
+    "TYPO3ProjectConfigured": "true",
+    "TYPO3Version": "None",
+    "TYPO3XliffLanguages": "af:Afrikaans;\nar:Arabic;\nbs:Bosnian;\nbg:Bulgarian;\nca:Catalan;\nch:Chinese (Simpl.);\ncs:Czech;\nda:Danish;\nde:German;\nel:Greek;\neo:Esperanto;\nes:Spanish;\net:Estonian;\neu:Basque;\nfa:Persian;\nfi:Finnish;\nfo:Faroese;\nfr:French;\nfr_CA:French (Canada);\ngl:Galician;\nhe:Hebrew;\nhi:Hindi;\nhr:Croatian;\nhu:Hungarian;\nis:Icelandic;\nit:Italian;\nja:Japanese;\nka:Georgian;\nkl:Greenlandic;\nkm:Khmer;\nko:Korean;\nlt:Lithuanian;\nlv:Latvian;\nms:Malay;\nnl:Dutch;\nno:Norwegian;\npl:Polish;\npt:Portuguese;\npt_BR:Brazilian Portuguese;\nro:Romanian;\nru:Russian;\nsk:Slovak;\nsl:Slovenian;\nsq:Albanian;\nsr:Serbian;\nsv:Swedish;\nth:Thai;\ntr:Turkish;\nuk:Ukrainian;\nvi:Vietnamese;\nzh:Chinese (Trad.)",
+    "TYPO3XliffPathToExtensionLanguageFiles": "Resources/Private/Language/",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TYPO3Settings" version="213.7.3" />
   <component name="TaskManager">
@@ -140,7 +143,8 @@
       <updated>1649316099383</updated>
       <workItem from="1649316100647" duration="2156000" />
       <workItem from="1649318357792" duration="1417000" />
-      <workItem from="1649324100892" duration="585000" />
+      <workItem from="1649324100892" duration="1491000" />
+      <workItem from="1651823152402" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Add new mappers and examples">
       <created>1649318754618</created>
@@ -156,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649318792222</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[TASK] Update documentation">
+      <created>1649324693830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649324693830</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[TASK] Update documentation">
+      <created>1649324768671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649324768671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new mappers and examples" />
     <MESSAGE value="[TASK] set version to 1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TASK] set version to 1.0.0" />
+    <MESSAGE value="[TASK] Update documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[TASK] Update documentation" />
   </component>
 </project>
