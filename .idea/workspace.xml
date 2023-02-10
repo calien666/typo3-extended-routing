@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad6a954-f071-43c3-ae85-d6ae976e0681" name="Changes" comment="">
+    <list default="true" id="cad6a954-f071-43c3-ae85-d6ae976e0681" name="Changes" comment="[TASK] set version to 1.0.0">
+      <change afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/extended-routing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/extended-routing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,11 @@
         <option name="argument" value="--tags" />
         <option name="title" value="All" />
       </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -99,6 +108,118 @@
       <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
       <path value="$PROJECT_DIR$/vendor/typo3/cms-composer-installers" />
       <path value="$PROJECT_DIR$/vendor/typo3/html-sanitizer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/.Build/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/.Build/vendor/helmich/typo3-typoscript-lint" />
+      <path value="$PROJECT_DIR$/.Build/vendor/helmich/typo3-typoscript-parser" />
+      <path value="$PROJECT_DIR$/.Build/vendor/lolli42/finediff" />
+      <path value="$PROJECT_DIR$/.Build/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/lock" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/rate-limiter" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/.Build/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/.Build/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/.Build/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/.Build/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/.Build/vendor/enshrined/svg-sanitize" />
+      <path value="$PROJECT_DIR$/.Build/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/.Build/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/.Build/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/.Build/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/.Build/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/.Build/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3fluid/fluid" />
+      <path value="$PROJECT_DIR$/.Build/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/.Build/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/idiosyncratic/editorconfig" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/.Build/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/.Build/vendor/christian-riesen/base32" />
+      <path value="$PROJECT_DIR$/.Build/vendor/composer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/.Build/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/.Build/vendor/armin/editorconfig-cli" />
+      <path value="$PROJECT_DIR$/.Build/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/.Build/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/.Build/vendor/nimut/testing-framework" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/coding-standards" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/cms-cli" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/symfony-psr-event-dispatcher-adapter" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/cms-composer-installers" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/class-alias-loader" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/html-sanitizer" />
+      <path value="$PROJECT_DIR$/.Build/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/.Build/vendor/league/csv" />
     </include_path>
   </component>
   <component name="ProjectId" id="27SaleX6U6RD43fHrWsto8wJgnT" />
@@ -107,27 +228,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="AutoIdentifyTypo3Version" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="TYPO3AuthorEmailAddress" value="hofmann@reseen.de" />
-    <property name="TYPO3AuthorName" value="Markus Hofmann" />
-    <property name="TYPO3PathToExtensionDomainModels" value="Classes/Domain/Model/" />
-    <property name="TYPO3PathToLocalExtensions" value="typo3conf/ext/" />
-    <property name="TYPO3PathToSystemExtensions" value="public/typo3/sysext/" />
-    <property name="TYPO3ProjectConfigured" value="true" />
-    <property name="TYPO3Version" value="None" />
-    <property name="TYPO3XliffLanguages" value="af:Afrikaans;&#10;ar:Arabic;&#10;bs:Bosnian;&#10;bg:Bulgarian;&#10;ca:Catalan;&#10;ch:Chinese (Simpl.);&#10;cs:Czech;&#10;da:Danish;&#10;de:German;&#10;el:Greek;&#10;eo:Esperanto;&#10;es:Spanish;&#10;et:Estonian;&#10;eu:Basque;&#10;fa:Persian;&#10;fi:Finnish;&#10;fo:Faroese;&#10;fr:French;&#10;fr_CA:French (Canada);&#10;gl:Galician;&#10;he:Hebrew;&#10;hi:Hindi;&#10;hr:Croatian;&#10;hu:Hungarian;&#10;is:Icelandic;&#10;it:Italian;&#10;ja:Japanese;&#10;ka:Georgian;&#10;kl:Greenlandic;&#10;km:Khmer;&#10;ko:Korean;&#10;lt:Lithuanian;&#10;lv:Latvian;&#10;ms:Malay;&#10;nl:Dutch;&#10;no:Norwegian;&#10;pl:Polish;&#10;pt:Portuguese;&#10;pt_BR:Brazilian Portuguese;&#10;ro:Romanian;&#10;ru:Russian;&#10;sk:Slovak;&#10;sl:Slovenian;&#10;sq:Albanian;&#10;sr:Serbian;&#10;sv:Swedish;&#10;th:Thai;&#10;tr:Turkish;&#10;uk:Ukrainian;&#10;vi:Vietnamese;&#10;zh:Chinese (Trad.)" />
-    <property name="TYPO3XliffPathToExtensionLanguageFiles" value="Resources/Private/Language/" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mhofmann/PhpstormProjects/typo3-extended-routing/.ddev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.ddev" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TYPO3Settings" version="213.7.3" />
@@ -141,6 +259,8 @@
       <workItem from="1649316100647" duration="2156000" />
       <workItem from="1649318357792" duration="1417000" />
       <workItem from="1649324100892" duration="585000" />
+      <workItem from="1676049254331" duration="1059000" />
+      <workItem from="1676050914228" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="Add new mappers and examples">
       <created>1649318754618</created>

@@ -2,19 +2,20 @@
 
 ## What does it do?
 
-Adds some more Mappers for Routing Aspects feature in TYPO3. 
+Adds some more Mappers for Routing Aspects feature in TYPO3.
 
 
 ## How does it work?
 
-With four new Routing aspects you can handle more possibilities for advanced routing in TYPO3.
+With four new Routing aspects you can handle more possibilities for advanced
+routing in TYPO3.
 
 ## The mappers
 
 ### DateTimeMapper
 
-Allows you to create customized url parts including localization to get DateTime values inspeaking parts
-without using a dataset with defined slug.
+Allows you to create customized url parts including localization to get
+DateTime values inspeaking parts without using a dataset with defined slug.
 
 ```yaml
 Archive:
@@ -39,8 +40,8 @@ Archive:
 
 ### PersistedSanitizedPatternMapper
 
-Adds a new routing aspect extending the PersistedPatternMapper from TYPO3 core with sanitized URL parts.
-Localization is respected, if needed.
+Adds a new routing aspect extending the PersistedPatternMapper from TYPO3 core
+with sanitized URL parts. Localization is respected, if needed.
 
 ```yaml
 aspects:
@@ -68,8 +69,8 @@ aspects:
 
 ### PersistedDisabledAliasMapper
 
-Allows creating full URLs for disabled elements by TCA enablecolumns. Helpful, if you have to create the URLs
-before publishing the record.
+Allows creating full URLs for disabled elements by TCA enablecolumns. Helpful,
+if you have to create the URLs before publishing the record.
 Usage as the default PersistedAliaMapper.
 
 ```yaml
@@ -92,8 +93,8 @@ News:
 
 ### PersistedNullableAliasMapper
 
-Allows a default value for normally aliased URL path segment. For example, a news without category, but
-URL part is defined with category.
+Allows a default value for normally aliased URL path segment. For example,
+a news without category, but URL part is defined with category.
 
 ```yaml
 News:

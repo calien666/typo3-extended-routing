@@ -1,4 +1,12 @@
-public
-var
-vendor
-composer.lock
+/public/
+/var/
+/vendor/
+/composer.lock
+/.Build/
+.php-cs-fixer.cache
+/.cache/
+/composer.json.testing
+/composer.json.orig
+/Build/testing-docker/.env
+/.idea/
+/.vscode/
