@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Calien\ExtendedRouting\Routing\Aspect;
 
 use TYPO3\CMS\Core\Routing\Aspect\PersistedAliasMapper;
-use TYPO3\CMS\Install\FolderStructure\Exception\InvalidArgumentException;
+use InvalidArgumentException;
 
 /**
  * Allows Creating speaking URL parts if no uid is set,

@@ -4,8 +4,6 @@
  * 03.11.21 12:48
  * persisted_sanitized_routing
  */
-
-
 $EM_CONF['extended_routing'] = [
     'title' => 'Extended routing mappers',
     'description' => 'Adds extended routing mappers to the routing feature for TYPO3',
@@ -24,7 +22,7 @@ $EM_CONF['extended_routing'] = [
     ],
     'autoload' => [
         'PSR-4' => [
-            'Calien\\ExtendedRouting\\' => 'Classes'
-        ]
-    ]
+            'Calien\\ExtendedRouting\\' => 'Classes',
+        ],
+    ],
 ];

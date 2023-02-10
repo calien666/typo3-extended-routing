@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Calien\ExtendedRouting\Routing\Aspect;
 
+use InvalidArgumentException;
 use TYPO3\CMS\Core\DataHandling\SlugHelper;
 use TYPO3\CMS\Core\Routing\Aspect\PersistedPatternMapper;
 use TYPO3\CMS\Core\Site\SiteLanguageAwareTrait;
@@ -18,12 +19,12 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
     /**
      * @var string[]
      */
-    protected $routeFieldResultSanitized;
+    protected array $routeFieldResultSanitized;
 
     /**
      * @var SlugHelper|null
      */
-    protected $slugHelper;
+    protected ?SlugHelper $slugHelper;
 
     /**
      * @var array
@@ -35,24 +36,23 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
      */
     public function __construct(
         array $settings
-    )
-    {
+    ) {
         $tableName = $settings['tableName'] ?? null;
         $routeFieldPattern = $settings['routeFieldPattern'] ?? null;
         $routeFieldResult = $settings['routeFieldResult'] ?? null;
         $localeMap = $settings['localeMap'] ?? [];
 
         if (!is_string($tableName)) {
-            throw new \InvalidArgumentException('tableName must be string', 1633614787090);
+            throw new InvalidArgumentException('tableName must be string', 1633614787090);
         }
         if (!is_string($routeFieldPattern)) {
-            throw new \InvalidArgumentException('routeFieldPattern must be string', 1633614790631);
+            throw new InvalidArgumentException('routeFieldPattern must be string', 1633614790631);
         }
         if (!is_string($routeFieldResult)) {
-            throw new \InvalidArgumentException('routeFieldResult must be string', 1633614793784);
+            throw new InvalidArgumentException('routeFieldResult must be string', 1633614793784);
         }
         if (!preg_match_all(static::PATTERN_RESULT, $routeFieldResult, $routeFieldResultNames)) {
-            throw new \InvalidArgumentException(
+            throw new InvalidArgumentException(
                 'routeFieldResult must contain substitutable field names',
                 1633614799805
             );
@@ -92,12 +92,12 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
     /**
      * @param array|null $result
      * @return string|null
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     protected function createRouteResult(?array $result): ?string
     {
         if ($result === null) {
-            return $result;
+            return null;
         }
         $this->modify();
         $substitutes = [];
@@ -139,20 +139,18 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
 
     /**
      * modify
-     * @return void
      */
     protected function modify(): void
     {
         $locale = $this->siteLanguage->getLocale();
         foreach ($this->localeMap as $item) {
             $pattern = '#^' . $item['locale'] . '#i';
-            if (preg_match($pattern, $locale)) {
+            if (preg_match($pattern, (string)$locale)) {
                 $localizedFieldName = (string)$item['field'];
                 $this->routeFieldPattern = str_replace($this->routeFieldResultNames[0], $localizedFieldName, $this->routeFieldPattern);
                 $this->routeFieldResult = str_replace($this->routeFieldResultNames[0], $localizedFieldName, $this->routeFieldResult);
                 $this->routeFieldResultNames[0] = $localizedFieldName;
             }
         }
-
     }
 }

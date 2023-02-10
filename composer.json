@@ -57,13 +57,17 @@
       "Calien\\ExtendedRouting\\": "Classes"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Calien\\ExtendedRouting\\Tests\\": "Tests"
+    }
+  },
   "scripts": {
     "ec:check": "ec -v -n --no-progress -e'var/log' -e'.Build' -e'.ddev' -e'phpstan-baseline.neon'",
     "ec:fix": "ec -v -n --fix -e'var/log' -e'.Build' -e'.ddev'",
     "cs:check": "php-cs-fixer fix --config .config/.php-cs-rules.php --ansi --diff --verbose --dry-run",
     "cs:fix": "php-cs-fixer fix --config .config/.php-cs-rules.php --ansi",
     "analyze:php": "phpstan analyse --ansi --no-progress --memory-limit=768M --configuration=.config/phpstan.neon",
-    "lint:typoscript": "typoscript-lint --ansi --config=./.config/typoscript-lint.yml",
     "test:php": [
       "@test:php:unit",
       "@test:php:functional"

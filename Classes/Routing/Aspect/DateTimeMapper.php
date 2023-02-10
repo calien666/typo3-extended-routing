@@ -15,7 +15,7 @@ class DateTimeMapper implements StaticMappableAspectInterface, SiteLanguageAware
     /**
      * @var array
      */
-    protected $settings = [];
+    protected array $settings = [];
     /**
      * @var string
      */
@@ -47,9 +47,6 @@ class DateTimeMapper implements StaticMappableAspectInterface, SiteLanguageAware
         return $formatted ?? null;
     }
 
-    /**
-     * @inheritDoc
-     */
     public function resolve(string $value): ?string
     {
         $format = $this->retrieveLocaleFormat() ?? $this->dateFormat;
@@ -66,7 +63,7 @@ class DateTimeMapper implements StaticMappableAspectInterface, SiteLanguageAware
         $locale = $this->siteLanguage->getLocale();
         foreach ($this->localeFormat as $item) {
             $pattern = '#^' . $item['locale'] . '#i';
-            if (preg_match($pattern, $locale)) {
+            if (preg_match($pattern, (string)$locale)) {
                 return $item['format'];
             }
         }
