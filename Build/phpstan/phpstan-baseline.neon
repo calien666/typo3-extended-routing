@@ -1,0 +1,20 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Parameter \\#2 \\$to of function copy expects string, string\\|null given\\.$#"
+			count: 1
+			path: ../../Classes/Converter/AbstractFileConverter.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename of function mime_content_type expects resource\\|string, string\\|null given\\.$#"
+			count: 1
+			path: ../../Tests/Functional/Event/ConvertFileToCorrectMimeTypeTest.php
+		-
+			message: "#^Parameter \\#2 \\$destination_file of function copy expects string, string\\|null given\\.$#"
+			count: 1
+			path: ../../Classes/Converter/AbstractFileConverter.php
+
+		-
+			message: "#^Parameter \\#1 \\$filename_or_stream of function mime_content_type expects resource\\|string, string\\|null given\\.$#"
+			count: 1
+			path: ../../Tests/Functional/Event/ConvertFileToCorrectMimeTypeTest.php

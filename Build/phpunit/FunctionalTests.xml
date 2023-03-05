@@ -1,0 +1,28 @@
+<phpunit
+        backupGlobals="true"
+        bootstrap="FunctionalTestsBootstrap.php"
+        cacheResult="false"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertWarningsToExceptions="true"
+        forceCoversAnnotation="false"
+        stopOnError="false"
+        stopOnFailure="false"
+        stopOnIncomplete="false"
+        stopOnSkipped="false"
+        verbose="false"
+        beStrictAboutTestsThatDoNotTestAnything="false"
+        failOnWarning="true"
+>
+    <testsuites>
+        <testsuite name="Functional tests">
+            <directory>../../Tests/Functional/</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="TYPO3_MODE" value="BE" />
+        <ini name="display_errors" value="1" />
+        <ini name="error_reporting" value="E_ALL" />
+        <env name="TYPO3_CONTEXT" value="Testing" />
+    </php>
+</phpunit>
