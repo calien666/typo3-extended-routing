@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Calien\ExtendedRouting\Routing\Aspect;
 
-use TYPO3\CMS\Core\Routing\Aspect\PersistedAliasMapper;
 use InvalidArgumentException;
+use TYPO3\CMS\Core\Routing\Aspect\PersistedAliasMapper;
 
 /**
  * Allows Creating speaking URL parts if no uid is set,
@@ -36,7 +36,7 @@ class PersistedNullableAliasMapper extends PersistedAliasMapper
     protected ?string $default = null;
 
     /**
-     * @param array $settings
+     * @param array<string, mixed> $settings
      * @throws InvalidArgumentException
      */
     public function __construct(array $settings)

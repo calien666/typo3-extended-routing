@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Calien\ExtendedRouting\Routing\Aspect;
 
+use Doctrine\DBAL\Exception;
 use TYPO3\CMS\Core\Database\Connection;
 use TYPO3\CMS\Core\Routing\Aspect\PersistedAliasMapper;
 
@@ -13,6 +14,10 @@ use TYPO3\CMS\Core\Routing\Aspect\PersistedAliasMapper;
  */
 class PersistedDisabledAliasMapper extends PersistedAliasMapper
 {
+    /**
+     * @return array<int|string, mixed>
+     * @throws Exception
+     */
     protected function findByIdentifier(string $value): ?array
     {
         $result = parent::findByIdentifier($value);
@@ -25,8 +30,8 @@ class PersistedDisabledAliasMapper extends PersistedAliasMapper
                     'uid',
                     $queryBuilder->createNamedParameter($value, Connection::PARAM_INT)
                 ))
-                ->execute()
-                ->fetch();
+                ->executeQuery()
+                ->fetchAssociative();
         }
         return $result !== false ? $result : null;
     }

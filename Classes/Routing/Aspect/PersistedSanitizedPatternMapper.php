@@ -27,12 +27,12 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
     protected ?SlugHelper $slugHelper;
 
     /**
-     * @var array
+     * @var array<int|string, mixed>
      */
     protected $localeMap = [];
 
     /**
-     * @param array $settings
+     * @param array<string, mixed> $settings
      */
     public function __construct(
         array $settings
@@ -80,7 +80,7 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
         }
         $values = $this->filterNamesKeys($matches);
         $result = $this->findByRouteFieldValues($values);
-        if ($result[$this->languageParentFieldName] ?? null > 0) {
+        if (($result[$this->languageParentFieldName] ?? null) > 0) {
             return (string)$result[$this->languageParentFieldName];
         }
         if (isset($result['uid'])) {
@@ -90,7 +90,7 @@ class PersistedSanitizedPatternMapper extends PersistedPatternMapper
     }
 
     /**
-     * @param array|null $result
+     * @param array<int|string, mixed> $result
      * @return string|null
      * @throws InvalidArgumentException
      */

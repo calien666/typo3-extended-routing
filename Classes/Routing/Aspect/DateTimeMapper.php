@@ -13,7 +13,7 @@ class DateTimeMapper implements StaticMappableAspectInterface, SiteLanguageAware
     use SiteLanguageAwareTrait;
 
     /**
-     * @var array
+     * @var array<int|string, mixed>
      */
     protected array $settings = [];
     /**
@@ -21,13 +21,13 @@ class DateTimeMapper implements StaticMappableAspectInterface, SiteLanguageAware
      */
     protected $dateFormat = '';
     /**
-     * @var array
+     * @var array<int|string, mixed>
      */
     protected $localeFormat;
 
     /**
      * DateTimeMapper constructor.
-     * @param array $settings
+     * @param array<int|string, mixed> $settings
      */
     public function __construct(array $settings)
     {
@@ -44,7 +44,7 @@ class DateTimeMapper implements StaticMappableAspectInterface, SiteLanguageAware
         $format = $this->retrieveLocaleFormat() ?? $this->dateFormat;
         $formatted = date($format, (int)$value);
 
-        return $formatted ?? null;
+        return $formatted ?: null;
     }
 
     public function resolve(string $value): ?string
